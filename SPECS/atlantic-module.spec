@@ -1,6 +1,6 @@
 %define module_dir extra
 
-Summary: Driver for aQuantia AQtion Driver for the aQuantia Multi-Gigabit PCI Express Family of Ethernet Adapters
+Summary: Driver for Atlantic aQuantia AQtion aQuantia Multi-Gigabit PCI Express Family of Ethernet Adapters
 Name: atlantic-module-alt
 Version: 2.5.6
 Release: 1%{?dist}
@@ -16,7 +16,7 @@ Requires(post): /usr/sbin/depmod
 Requires(postun): /usr/sbin/depmod
 
 %description
-Driver for aQuantia AQtion Driver for the aQuantia Multi-Gigabit PCI Express Family of Ethernet Adapters
+Driver for Atlantic aQuantia AQtion aQuantia Multi-Gigabit PCI Express Family of Ethernet Adapters
 
 %prep
 %autosetup -n %{name}-%{version}
